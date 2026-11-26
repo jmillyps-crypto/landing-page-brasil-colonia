@@ -1,0 +1,123 @@
+*{
+    text-decoration: none;
+    color: #331207;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #ECAA67;
+    color: #331207;
+
+
+    .logo{
+        height: 60px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .linha{
+        width: 2px;
+        height: 50px;
+        background-color: #331207;
+        margin-right: 70px;
+    }
+
+    .campos{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        font-size: 18px;
+
+    }
+
+    .botao{
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 20px;
+        margin-left: 70px;
+        background-color: #7f280b;
+        color: white;
+    }
+    .cadastro{
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+        border: 2px solid #7f280b;
+        border-radius: 20px;
+        margin-left: 10px;
+        background-color: white;
+        color: #7f280b;
+    }
+}
+.banner{
+    
+
+    position: relative;
+    .elemento{
+        width: 100%;
+        height: 30px;
+    }
+
+    .img-banner{
+        width: 100%;
+        opacity: 70%;
+      
+        
+    }
+    
+    h1{
+        position: absolute;
+        top: 50px;
+        bottom: 500px;
+        left: 50px;
+        font-size: 50px;
+    
+        
+    }
+    p{
+        position: absolute;
+        bottom: 320px;
+        left: 50px;
+        font-weight: 400;
+    }
+
+    button{
+        position: absolute;
+        bottom: 290px;
+        left: 50px;
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 20px;
+        background-color: #7f280b;
+        color: white;
+    }
+}
+.funcionalidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+   
+
+    img{
+        width: 80px;
+        align-items: center;
+        
+    }
+    h6{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
